@@ -20,24 +20,35 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.cookie-popup {
-  border: 1px solid white;
+.cookie-layout {
   position: fixed;
-  right: 20px;
   bottom: 20px;
-  width: 400px;
+  right: 20px;
+  border: solid 2px white;
+  border-radius: 20px;
   padding: 20px;
-  border-radius: 20px;
+  width: 300px;
 }
 
-.cookie-popup p {
-  margin-top: 40px;
-  font-size: 20px;
+.cookie-text {
+  display: grid;
+  gap: 20px;
 }
 
-.cookie-popup button {
-  border: 1px solid white;
+.cookie-button {
+  background-color: white;
+  color: black;
+  border-radius: 6px;
   padding: 10px;
-  margin-top: 20px;
-  border-radius: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.cookie-icon {
+  width: 40px;
+  height: 40px;
 }
