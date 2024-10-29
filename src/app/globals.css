@@ -20,7 +20,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.cookie-layout {
+.cookie {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -30,32 +30,25 @@ body {
   width: 250px;
 }
 
-.cookie-text {
+.cookie-content {
   display: grid;
   gap: 20px;
   font-size: 18px;
 }
 
-.cookie-button {
+.cookie-content-button {
   background-color: white;
   color: black;
   border-radius: 12px;
   padding: 10px;
 }
 
-.icons {
+.cookie-icons {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
 }
 
-.cookie-icon {
-  width: 40px;
-  height: 40px;
-}
-
-.close-icon {
+.cookie-icons-close {
   cursor: pointer;
-  height: 20px;
-  width: 20px;
 }
