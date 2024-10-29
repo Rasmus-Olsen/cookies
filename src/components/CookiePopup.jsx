@@ -10,7 +10,7 @@ export default function Home() {
       </div>
       <div className="cookie-text">
         <p>We use cookies to improve your user experience.</p>
-        <button className="cookie-button">I like cookies</button>
+        <button className="cookie-button">I like Cookies</button>
       </div>
     </div>
   );

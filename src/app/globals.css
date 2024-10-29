@@ -27,18 +27,19 @@ body {
   border: solid 2px white;
   border-radius: 20px;
   padding: 20px;
-  width: 300px;
+  width: 250px;
 }
 
 .cookie-text {
   display: grid;
   gap: 20px;
+  font-size: 18px;
 }
 
 .cookie-button {
   background-color: white;
   color: black;
-  border-radius: 6px;
+  border-radius: 12px;
   padding: 10px;
 }
 
@@ -51,4 +52,10 @@ body {
 .cookie-icon {
   width: 40px;
   height: 40px;
+}
+
+.close-icon {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
 }
