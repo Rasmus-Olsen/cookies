@@ -3,8 +3,15 @@
 @tailwind utilities;
 
 :root {
-  --background: #0a0a0a;
-  --foreground: #ededed;
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
 }
 
 body {
@@ -21,7 +28,6 @@ body {
   border-radius: 20px;
   padding: 20px;
   width: 250px;
-  background: var(--background);
 }
 
 .cookie-content {
@@ -31,8 +37,6 @@ body {
 }
 
 .cookie-content-button {
-  background-color: white;
-  color: black;
   border-radius: 12px;
   padding: 10px;
 }
